@@ -1,23 +1,23 @@
-import logo from './logo.svg';
+
 import './App.css';
+// import UseStateHook from './AllHooks/UseStateHook';
+// import UseStateWithArray from './AllHooks/UseStateWithArray';
+// import UseStateWithObjects from './AllHooks/UseStateWithObjects'
+// import SimpleTodoWithArray from './AllHooks/SimpleTodoWithArray';
+// import UseStateCircuitEvaluation from './AllHooks/UseStateCircuitEvaluation';
+// import UseEffectGithubFetchApi from './AllHooks/UseEffectGithubFetchApi';
+import GetImages from './AllHooks/GetImages';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+     {/* <UseStateHook /> */}
+     {/* <UseStateWithArray /> */}
+     {/* <UseStateWithObjects /> */}
+     {/* <SimpleTodoWithArray /> */}
+     {/* <UseStateCircuitEvaluation /> */}
+     {/* <UseEffectGithubFetchApi /> */}
+     <GetImages />
     </div>
   );
 }

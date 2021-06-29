@@ -1,0 +1,34 @@
+
+
+.heading {
+    text-align: center;
+}
+
+.main {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+
+.containermain {
+ 
+    margin-top: 30px;
+    width: 350px;
+    background-color: white;
+    border: 1px solid black;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px black;
+}
+
+.image {
+    margin-top: 5px;
+    width: 80px;
+    height: 80px;
+    border-radius: 10px;
+}
+
+.elements {
+   /* width: 250px; */
+    text-align: center;
+}
